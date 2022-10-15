@@ -1,0 +1,49 @@
+#titlepage{
+    background-color:pink;
+    font-family: "Montserrat";
+}
+
+.navbar-brand{
+    font-weight: bold;
+    padding-left: 5%;
+    font-size: 2rem;
+  
+}
+.kelimg{
+    width: 25rem;
+    height: 35rem;
+}
+    
+.carousel-inner{
+    width: 40rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#testimonial{
+    background-color:rgb(250, 223, 227);
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold; 
+    
+}
+
+a:hover{
+    color: white;
+}
+
+#motivation{
+    padding:7% 15%;
+    line-height: 1.5;
+    background-color: pink;
+}
+
