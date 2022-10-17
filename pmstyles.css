@@ -1,5 +1,5 @@
 #titlepage{
-    background-color:pink;
+    background-color:#256D85;
     font-family: "Montserrat";
 }
 
@@ -23,7 +23,7 @@
 }
 
 #testimonial{
-    background-color:rgb(250, 223, 227);
+    background-color:#DFF6FF;
 }
 
 .container-fluid{
@@ -44,6 +44,6 @@ a:hover{
 #motivation{
     padding:7% 15%;
     line-height: 1.5;
-    background-color: pink;
+    background-color: #256D85;
 }
 
