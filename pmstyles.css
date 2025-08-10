@@ -1,49 +1,151 @@
-#titlepage{
-    background-color:#256D85;
-    font-family: "Montserrat";
+/* General */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-.navbar-brand{
+/* Title page */
+#titlepage {
+    background: linear-gradient(135deg, #256D85, #1B4D66);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
     font-weight: bold;
-    padding-left: 5%;
     font-size: 2rem;
-  
-}
-.kelimg{
-    width: 25rem;
-    height: 35rem;
-}
-    
-.carousel-inner{
-    width: 40rem;
+    letter-spacing: 1px;
+    color: white !important;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+.nav-link {
+    color: rgba(255,255,255,0.85) !important;
+    transition: color 0.3s ease;
 }
 
-#testimonial{
-    background-color:#DFF6FF;
+.nav-link:hover {
+    color: #FFD93D !important;
 }
 
-.container-fluid{
-    padding: 3% 15%;
+.kelimg {
+    width: 100%;
+    max-width: 28rem;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
-h1{
-    font-family: sans-serif;
+
+h1 {
     font-size: 3rem;
-    line-height: 1.5;
-    font-weight: bold; 
-    
+    line-height: 1.4;
+    font-weight: bold;
 }
 
-a:hover{
+.lead {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FFD93D;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffcc00;
+    transform: translateY(-2px);
+}
+
+/* Carousel */
+#testimonial {
+    background-color: #DFF6FF;
+    padding: 3rem 0;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-width: 40rem;
+}
+
+.carousel-item img {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Scavenger Hunts section */
+#hunts {
+    padding: 4rem 0;
+}
+
+#hunts h2 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #256D85;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    color: #256D85;
+    font-weight: bold;
+}
+
+/* Interesting Posts section */
+#posts {
+    padding: 4rem 0;
+}
+
+#posts h2 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #256D85;
+}
+
+.list-group-item {
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f5faff;
+    transform: translateX(5px);
+}
+
+/* Motivation */
+#motivation {
+    padding: 4rem 0;
+    background-color: #256D85;
     color: white;
 }
 
-#motivation{
-    padding:7% 15%;
-    line-height: 1.5;
-    background-color: #256D85;
+#motivation h3 {
+    font-weight: bold;
 }
 
+#motivation p {
+    opacity: 0.9;
+}
