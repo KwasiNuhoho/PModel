@@ -1,151 +1,83 @@
 /* General */
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-/* Title page */
+/* Titlepage */
 #titlepage {
-    background: linear-gradient(135deg, #256D85, #1B4D66);
+    background-color: #256D85;
     color: white;
-    font-family: "Montserrat", sans-serif;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 3% 15%;
 }
-
-.navbar {
-    background-color: transparent !important;
-}
-
 .navbar-brand {
     font-weight: bold;
     font-size: 2rem;
-    letter-spacing: 1px;
-    color: white !important;
 }
-
-.nav-link {
-    color: rgba(255,255,255,0.85) !important;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: #FFD93D !important;
-}
-
 .kelimg {
-    width: 100%;
-    max-width: 28rem;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    width: 25rem;
+    height: 35rem;
 }
-
 h1 {
     font-size: 3rem;
-    line-height: 1.4;
+    line-height: 1.5;
     font-weight: bold;
-}
-
-.lead {
-    font-size: 1.1rem;
-    opacity: 0.9;
-}
-
-/* Buttons */
-.btn-primary {
-    background-color: #FFD93D;
-    border: none;
-    color: #333;
-    font-weight: bold;
-    padding: 0.7rem 1.5rem;
-    border-radius: 50px;
-    transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #ffcc00;
-    transform: translateY(-2px);
 }
 
 /* Carousel */
+.carousel-inner {
+    width: 40rem;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
 #testimonial {
     background-color: #DFF6FF;
-    padding: 3rem 0;
+    padding: 3% 0;
 }
 
-.carousel-inner {
-    width: 100%;
-    max-width: 40rem;
+/* Scavenger Hunt */
+#scavenger-hunt {
+    background: linear-gradient(135deg, #DFF6FF 0%, #BEE9E8 100%);
 }
-
-.carousel-item img {
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-/* Scavenger Hunts section */
-#hunts {
-    padding: 4rem 0;
-}
-
-#hunts h2 {
-    font-weight: bold;
-    margin-bottom: 2rem;
+.section-title {
+    font-weight: 700;
     color: #256D85;
 }
-
-.card {
-    border: none;
-    border-radius: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.hunt-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
 }
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+.hunt-card:hover {
+    transform: translateY(-10px);
 }
-
-.card-title {
-    color: #256D85;
-    font-weight: bold;
+.hunt-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
-
-/* Interesting Posts section */
-#posts {
-    padding: 4rem 0;
+.hunt-content {
+    padding: 1.5rem;
 }
-
-#posts h2 {
-    font-weight: bold;
-    margin-bottom: 2rem;
-    color: #256D85;
+.btn-hunt {
+    background-color: #256D85;
+    color: white;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
 }
-
-.list-group-item {
-    border-radius: 10px;
-    margin-bottom: 0.8rem;
-    border: 1px solid #e0e0e0;
-    transition: all 0.3s ease;
-}
-
-.list-group-item:hover {
-    background-color: #f5faff;
-    transform: translateX(5px);
+.btn-hunt:hover {
+    background-color: #1B4A60;
 }
 
 /* Motivation */
 #motivation {
-    padding: 4rem 0;
+    padding: 7% 15%;
+    line-height: 1.5;
     background-color: #256D85;
     color: white;
-}
-
-#motivation h3 {
-    font-weight: bold;
-}
-
-#motivation p {
-    opacity: 0.9;
 }
